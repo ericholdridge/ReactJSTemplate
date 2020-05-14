@@ -1,13 +1,12 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
-import NavbarLogo from './NavbarLogo';
 import Container from '../GlobalComponents/Container';
 import NavbarLink from './NavbarLink';
-import { useState } from "react";
+import NavbarLogo from './NavbarLogo';
 
 function Navbar() {
     return (
-      <nav css={navbar}>
+      <nav css={styles}>
         <Container>
           <NavbarLogo />
           <NavbarLink />
@@ -16,15 +15,18 @@ function Navbar() {
     );
 }
 
-const navbar = css`
+const styles = css`
   width: 100%;
   padding: 24px 0;
-  background: #020230;
   color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 10;
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1580px;
   }
 `;
 

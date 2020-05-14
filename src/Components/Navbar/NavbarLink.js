@@ -14,15 +14,15 @@ function NavbarLink() {
   ];
   return (
     <div>
-      {navLink.map(link => (
-        <a href={`/${link}`} css={aLinkStyles}>{link}</a>
+      {navLink.map((link, index) => (
+        <a key={index} href={`/${link}`} css={styles}>{link}</a>
       ))}
       <Button btnText="+880.762.009" btnIcon="fas fa-headphones-alt fa-lg"/>
     </div>
   );
 }
 
-const aLinkStyles = css`
+const styles = css`
   color: white;
   text-decoration: none;
   padding-right: 30px;
@@ -30,7 +30,10 @@ const aLinkStyles = css`
   font-size: 16px;
   transition: color 300ms ease-in-out;
   &:hover{
-    color: red;
+    color: #eb566c;
+  }
+  button{
+  margin-left: 100px;
   }
 `
 

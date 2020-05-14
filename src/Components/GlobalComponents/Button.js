@@ -3,14 +3,14 @@ import { css, jsx } from "@emotion/core";
 
 function Button({btnIcon, btnText}) {
   return (
-  <button css={button}>
+  <button css={styles}>
       {btnIcon && <i className={btnIcon}></i>}
       {btnText}
     </button>
   );
 }
 
-const button = css`
+const styles = css`
   background: #eb566c;
   padding: 17px 20px;
   color: white;
@@ -20,7 +20,10 @@ const button = css`
   outline: none;
   cursor: pointer;
   border-radius: 50px;
-  margin-left: 100px;
+  transition: background 400ms ease-in-out;
+  &:hover{
+    background: #f32a48;
+  }
   i {
       margin-right: 10px;
   }
