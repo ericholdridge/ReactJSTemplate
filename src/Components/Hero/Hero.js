@@ -4,10 +4,12 @@ import { css, jsx } from "@emotion/core";
 import HeroInfo from './HeroInfo';
 import Container from '../GlobalComponents/Container';
 import HeroSocial from './HeroSocial';
+import Navbar from '../Navbar/Navbar';
 
 function Hero() {
     return (
       <section className="hero" css={styles}>
+        <Navbar />
           <HeroSocial />
         <Container>
           <HeroInfo />

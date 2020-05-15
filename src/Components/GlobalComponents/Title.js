@@ -23,12 +23,12 @@ const styles = css`
       height: 2px;
       background: #eb566c;
     }
-    p{
-    color: #eb566c;
+    p {
+      color: #eb566c;
       font-weight: bold;
     }
   }
-  h2{
+  h2 {
     color: #28395a;
     font-size: 40px;
     line-height: 1;

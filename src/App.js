@@ -9,11 +9,11 @@ import Visit from "./Components/Visit/Visit";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Pricing from "./Components/Pricing/Pricing";
 import Testimonials from "./Components/Testimonials/Testimonials";
+import Support from "./Components/Support/Support";
 
 function App() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Services />
       <Domain />
@@ -21,6 +21,7 @@ function App() {
       <Sponsors />
       <Pricing />
       <Testimonials />
+      <Support />
     </div>
   );
 }
