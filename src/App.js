@@ -10,6 +10,7 @@ import Pricing from "./Components/Pricing/Pricing";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Support from "./Components/Support/Support";
 import Blog from "./Components/Blog/Blog";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -23,11 +24,9 @@ function App() {
       <Testimonials />
       <Support />
       <Blog />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-// In order to use multiple components, I need to add react fragment
-// or just a div that wraps all of the components.

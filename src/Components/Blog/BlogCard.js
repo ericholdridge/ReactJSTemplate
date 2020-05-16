@@ -8,7 +8,7 @@ import Blog2 from "../../images/blog2.png";
 import Blog3 from "../../images/blog3.png";
 
 
-function BlogCard({text}) {
+function BlogCard() {
     const cardImages = [Blog1, Blog2, Blog3];
     const cardInfo = [
         {
