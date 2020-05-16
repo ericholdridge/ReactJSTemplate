@@ -12,8 +12,8 @@ function SponsorsLogo () {
     const images = [Brand, Brand2, Brand3, Brand4, Brand5, Brand6];
     return (
         <div css={styles}>
-        {images.map(image => (
-            <img src={image} alt=""/>
+        {images.map((image, index) => (
+            <img src={image} key={index} alt=""/>
         ))}
         </div>
     )

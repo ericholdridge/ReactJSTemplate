@@ -5,7 +5,7 @@ function SupportContact({supportIcon, supportText}) {
     return (
       <div className="box" css={styles}>
         <div className="circle">
-          <i class={supportIcon}></i>
+          <i className={supportIcon}></i>
         </div>
         <span>{supportText}</span>
       </div>

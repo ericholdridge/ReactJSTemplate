@@ -37,8 +37,8 @@ const DomainRow = () => {
 
   return (
     <div css={styles} className="domainRow">
-      {domains.map((row) => (
-        <div className="row">
+      {domains.map((row, index) => (
+        <div className="row" key={index}>
           <p style={{color: row.color}}>{row.domain}</p>
           <span>{row.price}</span>
         </div>

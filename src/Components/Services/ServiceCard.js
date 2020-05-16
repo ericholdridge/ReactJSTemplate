@@ -4,7 +4,7 @@ import ServiceImage from '../../images/servicesImage.png';
 
 const ServiceCard = ({ cardTitle, cardIcon, cardNumber }) => (
   <div className="serviceCard" css={styles}>
-    <i class={cardIcon}></i>
+    <i className={cardIcon}></i>
     <div className="info">
       <h2>{cardTitle}</h2>
       <p>
@@ -15,7 +15,7 @@ const ServiceCard = ({ cardTitle, cardIcon, cardNumber }) => (
     <div className="getStarted">
       <a href="#/">
         <div className="icon">
-          <i class="fas fa-arrow-right"></i>
+          <i className="fas fa-arrow-right"></i>
         </div>
         GET STARTED
       </a>

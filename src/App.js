@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
-import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Services from "./Components/Services/Services";
 import Domain from "./Components/Domain/Domain";
@@ -10,6 +9,7 @@ import Sponsors from "./Components/Sponsors/Sponsors";
 import Pricing from "./Components/Pricing/Pricing";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Support from "./Components/Support/Support";
+import Blog from "./Components/Blog/Blog";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
       <Pricing />
       <Testimonials />
       <Support />
+      <Blog />
     </div>
   );
 }

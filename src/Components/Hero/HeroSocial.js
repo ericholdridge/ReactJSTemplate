@@ -4,10 +4,10 @@ import { css, jsx } from "@emotion/core";
 function HeroSocial() {
   return (
     <div css={styles} className="heroSocial">
-      <i class="fab fa-instagram fa-sm"></i>
-      <i class="fas fa-globe fa-sm"></i>
-      <i class="fab fa-twitter fa-sm"></i>
-      <i class="fab fa-facebook-f fa-sm"></i>
+      <i className="fab fa-instagram fa-sm"></i>
+      <i className="fas fa-globe fa-sm"></i>
+      <i className="fab fa-twitter fa-sm"></i>
+      <i className="fab fa-facebook-f fa-sm"></i>
       <div className="line"></div>
       <div className="line"></div>
       <div className="line"></div>

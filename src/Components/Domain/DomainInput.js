@@ -11,7 +11,7 @@ function DomainInput() {
         placeholder="Search your domain name here"
       ></input>
       <div>
-        <i class="fas fa-chevron-down"></i>
+        <i className="fas fa-chevron-down"></i>
         <span>.com</span>
       </div>
       <Button btnText='SEARCH NOW' />
